@@ -1,0 +1,132 @@
+CRITICAL - 2021-11-04 13:12:27 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-04 15:32:51 --> Error connecting to the database: Unknown database 'controldepago'
+CRITICAL - 2021-11-04 15:32:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'controldepago'
+#0 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\controldepagos\app\Helpers\Operaciones_helper.php(10): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\controldepagos\app\Views\formulario.php(174): getSucursales()
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('formulario', Array, true)
+#8 C:\xampp\htdocs\controldepagos\app\Controllers\Form.php(9): view('formulario')
+#9 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Form->index()
+#10 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#11 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-04 15:33:26 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('formulario', Array, true)
+#3 C:\xampp\htdocs\controldepagos\app\Controllers\Form.php(9): view('formulario')
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Form->index()
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-04 19:31:49 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(56): mkdir('C:\\xampp\\htdocs...', 511)
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-04 19:32:41 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(56): mkdir('C:\\xampp\\htdocs...', 511)
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-04 19:37:37 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(56): mkdir('C:\\xampp\\htdocs...', 511)
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-04 19:55:40 --> Could not move file php24C3.tmp to img-upload/04-11-2021/ ()
+#0 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php24C3.tmp', 'img-upload/04-1...', '')
+#1 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(69): CodeIgniter\HTTP\Files\UploadedFile->move('img-upload/04-1...', 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-04 20:26:00 --> Invalid file: recursos/biblioteca_recursos.php
+#0 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('recursos/biblio...')
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('recursos/biblio...', Array, true)
+#2 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(89): view('recursos/biblio...', Array)
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-04 20:26:38 --> Undefined variable: session
+#0 C:\xampp\htdocs\controldepagos\app\Views\formulario.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(89): view('formulario', Array)
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-04 20:27:13 --> Undefined variable: session
+#0 C:\xampp\htdocs\controldepagos\app\Views\formulario.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Form.php(9): view('formulario')
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Form->index()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-04 20:27:20 --> Undefined variable: session
+#0 C:\xampp\htdocs\controldepagos\app\Views\formulario.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(89): view('formulario', Array)
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-04 20:28:35 --> Undefined variable: session
+#0 C:\xampp\htdocs\controldepagos\app\Views\formulario.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('formulario', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Form.php(9): view('formulario')
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Form->index()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-04 20:39:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-04 20:39:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-04 23:59:14 --> Cannot declare class App\Controllers\Form, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

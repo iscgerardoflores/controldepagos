@@ -1,0 +1,68 @@
+CRITICAL - 2021-11-06 12:36:50 --> Undefined property: stdClass::$idSucursal
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Comprobacion.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Comprobacion->check()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprobacion))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-06 12:37:58 --> Cannot declare class App\Controllers\Form, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-06 13:56:14 --> Trying to get property 'pager' of non-object
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Consulta.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Consulta->getRegistros()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-06 14:00:28 --> Trying to get property 'pager' of non-object
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Consulta.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Consulta->getRegistros()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-06 14:32:52 --> Undefined variable: recursos
+#0 C:\xampp\htdocs\controldepagos\app\Views\verRegistros.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('verRegistros', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Consulta.php(25): view('verRegistros', Array)
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Consulta->getRegistros()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-06 14:33:03 --> Undefined variable: recursos
+#0 C:\xampp\htdocs\controldepagos\app\Views\verRegistros.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('verRegistros', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Consulta.php(25): view('verRegistros', Array)
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Consulta->getRegistros()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-06 14:33:20 --> Undefined index: terminacionCuatroDijitos
+#0 C:\xampp\htdocs\controldepagos\app\Views\verRegistros.php(126): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 126, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('verRegistros', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Consulta.php(25): view('verRegistros', Array)
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Consulta->getRegistros()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-06 15:23:45 --> Undefined index: ruta_imagen
+#0 C:\xampp\htdocs\controldepagos\app\Views\verRegistros.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('verRegistros', Array, true)
+#4 C:\xampp\htdocs\controldepagos\app\Controllers\Consulta.php(25): view('verRegistros', Array)
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Consulta->getRegistros()
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

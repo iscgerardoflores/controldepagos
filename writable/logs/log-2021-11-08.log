@@ -1,0 +1,155 @@
+CRITICAL - 2021-11-08 21:43:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 21:46:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 21:48:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 21:49:43 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 21:50:09 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 21:53:03 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:01:55 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:04:01 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:04:01 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:08:09 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:11:50 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:19:14 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:39:03 --> Undefined variable: data
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 168, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:40:11 --> Undefined variable: tipoAlumno
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:51:33 --> Undefined variable: tipoAlumno
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:54:12 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:57:27 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:58:07 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:58:28 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 23:01:05 --> Undefined variable: recurso_archivo
+#0 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-08 23:19:38 --> Column 'edad' cannot be null
+CRITICAL - 2021-11-08 23:19:38 --> Column 'edad' cannot be null
+#0 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\controldepagos\app\Controllers\Procesar.php(156): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Procesar->formulario()
+#9 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Procesar))
+#10 C:\xampp\htdocs\controldepagos\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\controldepagos\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
