@@ -146,6 +146,7 @@ class Procesar extends BaseController
             'rutaImagen'=>$rutaImagen,
             'fecha_creacion'=>$hoy,
             'fecha_ultimo_cambio'=>$hoy,
+            'deleted'=>NULL
             ];
    
 

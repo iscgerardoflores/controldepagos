@@ -118,7 +118,7 @@
               ?>
                 <tr>
                   <td class="text-left"><?=$fila['id'];?></td>
-                  <td class="text-left"><?=$fila['tipoAlumno'];?></td>
+                  <td class="text-left"><?=($fila['tipoAlumno']==1 ? 'Alumno Nuevo' : 'Alumno existente');?></td>
                   <td class="text-left"><?=$fila['nombre'];?></td>
                   <td class="text-left"><?=$fila['apellidoPaterno'];?></td>
                   <td class="text-left"><?=$fila['apellidoMaterno'];?></td>
@@ -131,12 +131,21 @@
                   <td class="text-left"><?=$fila['claveRastreo'];?></td>
                   <td class="text-left"><?=$fila['referencia'];?></td>
                   <td class="text-left"><?=$fila['fecha_creacion'];?></td>
-                  <td class="text-left"><?=$fila['sucursalInteres'];?></td>
+                  <?php $sucursal = getSucursal($fila['sucursalInteres']);?>
+                  <td class="text-left"><?php echo $sucursal->nombre;?></td>
                   <td class="text-left">
                   <?php $ruta = base_url($fila['rutaImagen']); ?>  
                   <a class="text-weight" href="#" onclick="mostrarBaucher('<?php echo $ruta;?>')"> 
                   <i class="fas fa-images"></i>
                   </a>
+
+
+                  // Tambien obtener el roll,
+            // si es director de la sucursal puede ver todo
+            // si es contabilidad puede ver todo y aplicar el pago
+            // depende del roll se ejecutara la sentencia sql $this->session->get('idRoll');
+            
+            
                 </tr>
               <?php
               }
