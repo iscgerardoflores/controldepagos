@@ -1,11 +1,11 @@
-const aInscrito = document.querySelector("#btnAlumnoInscrito");
-aInscrito.addEventListener("click", (event) => {
-  let mostrarProgressBar = document.getElementById("mostrarProgressBar");
-  //mostrarProgressBar.style.display="block";
-  //mostrarBaucher.style.marginTop="-300px";
-  /*mostrarBaucher.margin:auto;
+//const aInscrito = document.querySelector("#btnAlumnoInscrito");
+//aInscrito.addEventListener("click", (event) => {
+//let mostrarProgressBar = document.getElementById("mostrarProgressBar");
+//mostrarProgressBar.style.display="block";
+//mostrarBaucher.style.marginTop="-300px";
+/*mostrarBaucher.margin:auto;
       mostrarBaucher.padding:0px;*/
-});
+//});
 
 function metodoPago() {
   let mpdeposito = document.getElementById("depositoInfo");
@@ -205,5 +205,57 @@ function validacionExiste() {
       document.getElementById("referenciaExiste").focus();
       return false;
     }
+  }
+}
+
+function cerrarVentana() {
+  let mostrarBaucher = document.getElementById("mostrarBaucher");
+  mostrarBaucher.style.display = "none";
+  mostrarBaucher.innerHTML = "";
+}
+
+function mostrarBaucher(ruta) {
+  let mostrarBaucher = document.getElementById("mostrarBaucher");
+
+  mostrarBaucher.style.display = "block";
+  mostrarBaucher.style.marginTop = "-600px";
+
+  $("#mostrarBaucher").append(
+    '<div class="container">\
+          <div class="row">\
+          <div class="col-md-3">\
+          </div>\
+          <div class="col-md-6">\
+          <div class="text-right"><a href="#" onclick="cerrarVentana()"><span class="btnCerrarVentana">Cerrar[x]</span></a></div>\
+            <img class="img-fluid" src="' +
+      ruta +
+      '">\
+          </div>\
+          <div class="col-md-3">\
+          </div>\
+            </div>\
+          </div>'
+  );
+}
+
+function aplicarPago(idRegistro, url) {
+  let confirmar = confirm("¿Confirmar el pago de este registro?");
+
+  if (confirmar == true) {
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: { idRegistro: idRegistro },
+      success: function (text) {
+        limpio = text.trim();
+        if (limpio == "exito") {
+          alert("Se modifico exitosamente");
+        } else {
+          alert(
+            "No se pudo modificar, consulte con el administrador del sistema"
+          );
+        }
+      },
+    });
   }
 }

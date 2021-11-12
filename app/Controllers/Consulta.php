@@ -10,7 +10,8 @@ class Consulta extends BaseController
         
         if($this->session->get('login')){
             $model     = new Pagos($db);
-            $pagos     = $model->select('*')->where('sucursalInteres',$this->session->get('idSucursal'))->orderBy('id', 'ASC')->paginate(20);
+            $arrayWhere = ['sucursalInteres' => $this->session->get('idSucursal'), 'estatusPago' => null];
+            $pagos     = $model->select('*')->where($arrayWhere)->orderBy('id', 'ASC')->paginate(10);
             $paginador = $model->pager;
             $paginador->setPath('controldepagos/Consulta/getRegistros/');
             $data = ['pagos'=>$pagos,

@@ -13,7 +13,7 @@ class Pagos extends Model
     protected $useSoftDeletes = true;
 
     #Aqui ponemos el nombre de las columnas que vamos a modifcar
-    protected $allowedFields = ['nombre','apellidoPaterno','apellidoMaterno','tipoAlumno','edad','telefono','celular','correo','nombrePapa','apellidoPaternoPapa','apellidoMaternoPapa','parentesco','telefonoCasaPapa','celularPapa','metodoPago','terminacionCuatroDigitos','sucursalInteres','afiliacion','autorizacion','claveRastreo','referencia','rutaImagen'];
+    protected $allowedFields = ['nombre','apellidoPaterno','apellidoMaterno','tipoAlumno','edad','telefono','celular','correo','nombrePapa','apellidoPaternoPapa','apellidoMaternoPapa','parentesco','telefonoCasaPapa','celularPapa','metodoPago','terminacionCuatroDigitos','sucursalInteres','afiliacion','autorizacion','claveRastreo','referencia','rutaImagen','estatusPago'];
 
     protected $useTimestamps = false;
     protected $createdField  = 'fecha_creacion';

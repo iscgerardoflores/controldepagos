@@ -70,12 +70,8 @@ a:hover {
 
 #mostrarBaucher {
   position: relative;
-  width: 50%;
-  height: 50%;
   display: none;
-  background-color: #5d6d7e;
-  justify-content: center;
-  align-items: center;
+  background-color: transparent;
 }
 
 .btnCerrarVentana {

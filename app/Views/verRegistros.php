@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="<?php echo base_url('css/customer.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('css/bootstrap.css'); ?>"  type="text/css">
     <link rel="stylesheet" href="<?php echo base_url('fontawesome-free/css/all.css'); ?>">
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="<?php echo base_url('js/jquery-3.3.1.min.js'); ?>"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -111,6 +112,15 @@
                   <th>
                     <p class="font-weight-bold text-center">Ver Baucher</p>
                   </th>
+                  <?php
+                  if($session->get('idRoll')==3){
+                  ?>
+                  <th class="text-left">
+                    <p class="font-weight-bold text-center">Aplicar pago</p>
+                  </th>
+                  <?php
+                  }
+                  ?>
                   </tr>
               </thead>
               <?php
@@ -133,19 +143,20 @@
                   <td class="text-left"><?=$fila['fecha_creacion'];?></td>
                   <?php $sucursal = getSucursal($fila['sucursalInteres']);?>
                   <td class="text-left"><?php echo $sucursal->nombre;?></td>
-                  <td class="text-left">
+                  <td class="text-center">
                   <?php $ruta = base_url($fila['rutaImagen']); ?>  
                   <a class="text-weight" href="#" onclick="mostrarBaucher('<?php echo $ruta;?>')"> 
                   <i class="fas fa-images"></i>
                   </a>
+                  <?php
+                  if($session->get('idRoll')==3){
+                  ?>
+                     <td class="text-left">
+                     <a href="" onclick="aplicarPago(<?php echo $fila['id'];?>,'<?php echo site_url('Ajax/updatepago');?>')">Aplicar Pago</a></td>
+                  <?php
+                  }
+                  ?>
 
-
-                  // Tambien obtener el roll,
-            // si es director de la sucursal puede ver todo
-            // si es contabilidad puede ver todo y aplicar el pago
-            // depende del roll se ejecutara la sentencia sql $this->session->get('idRoll');
-            
-            
                 </tr>
               <?php
               }
@@ -158,46 +169,16 @@
             ?>
 
 
-
       </div>
     </div>
 
 
 </div><!--Termima container-->
 <div id="mostrarBaucher">
-
 </div>
-<script>
-  function cerrarVentana(){
-  let mostrarBaucher = document.getElementById("mostrarBaucher");
-  mostrarBaucher.style.display="none";
-  mostrarBaucher.innerHTML="";
-  }
-
-  function mostrarBaucher(ruta){
-  let mostrarBaucher = document.getElementById("mostrarBaucher");
-
-  mostrarBaucher.style.display="block";
-  mostrarBaucher.style.marginTop="-900px";
-  
-  
 
 
-  $('#mostrarBaucher').append('<div class="container">\
-          <div class="row">\
-          <div class="col-md-3">\
-          </div>\
-          <div class="col-md-6">\
-          <div class="text-right"><a href="#" onclick="cerrarVentana()"><span class="btnCerrarVentana">Cerrar[x]</span></a></div>\
-            <img class="img-fluid" src="' + ruta +'">\
-          </div>\
-          <div class="col-md-3">\
-          </div>\
-            </div>\
-          </div>');
-}
-  </script>
-<script src="<?php echo base_url('js/customer.js'); ?>"></script>
 
 </body>
 </html>
+<script src="<?php echo site_url('js/customer.js'); ?>"></script>
