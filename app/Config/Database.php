@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'controldepagos',
+        'hostname' => 'db5005767025.hosting-data.io',
+        'username' => 'dbu2779205',
+        'password' => 'controldepagosPASS',
+        'database' => 'dbs4852313',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
